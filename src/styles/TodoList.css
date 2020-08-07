@@ -1,0 +1,33 @@
+.Todolist{
+    border-radius: 5%;
+}
+.Todolist-Header{
+    text-align: center;
+    background-color: #60DD45;
+    min-height: 8vh;
+    padding-top: .5em;
+    padding-left: .5em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.Todolist-Body{
+    background-color: #FFFFFF;
+    padding-top: .5em;
+    text-align: left;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.Todolist-Body h4{
+    text-align: center;
+    height: 2em;
+    padding-bottom: 1em;
+  }
+.Todolist-Item{
+    height: 2.5em;
+}
+.ImgRecycle, .ImgRemove{
+float: right;
+width: 5%;
+cursor: pointer;
+border-bottom-right-radius: 1em;
+}
